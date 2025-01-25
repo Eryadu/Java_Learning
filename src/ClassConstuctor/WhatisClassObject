@@ -1,0 +1,50 @@
+
+
+## What is class?
+
+## Class is something logical entity  means its a specific classification i.e vehicle does not make a sense, its just
+   classification of objects like car, truck, scooter, motorcar etc.
+   We can also called a type of blueprint for something.
+
+
+## Object?
+   Object is something who take care of all OOPs programming/ concept.
+   Object is something which has state (i.e liquid, gas) and behaviour, Identity.
+
+i.e
+Electronics
+
+Charger  Mobile  Laptop  Computer
+
+
+// in void type --  it print the value as it, we can't use the output anywhere.
+
+public static void main(String[] args);
+{
+    Test test = new Test;
+    test.sum();
+
+    int multi = test.multi();
+    if(multi>100)
+    {
+    system.out.println("Something");
+    }
+     }
+
+
+
+public void sum(){
+int a =10;
+int b=12;
+int sum =a+b;
+System.out.println(sum);
+}
+// for other return type like string -- we can use its output anywhere.
+public void multi(){
+int a =10;
+int b=12;
+int multi =a*b;
+System.out.println(multi);
+return multi;
+}
+
