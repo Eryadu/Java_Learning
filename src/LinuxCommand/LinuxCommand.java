@@ -16,7 +16,6 @@ Esc —— to come out of the insert mode
 
 :x — to save and exit
 
-
 :w —— to save the file
 :q —— exit and if there are unsaved changes, it would not let you exit
 :q! —— exit without save
