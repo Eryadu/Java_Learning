@@ -34,3 +34,23 @@ downstream --- local laptop
 upstream ---- remote repository i.e github
 
 
+// Steps to change existing remote repository to new one.
+
+//Change the current working directory to your local project.
+
+1. List your existing remotes in order to get the name of the remote you want to change.
+
+$ git remote -v
+
+i.e 
+> origin  git@github.com:OWNER/REPOSITORY.git (fetch)
+> origin  git@github.com:OWNER/REPOSITORY.git (push)
+Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+
+$ git remote set-url origin https://github.com/OWNER/REPOSITORY.git
+Verify that the remote URL has changed.
+
+$ git remote -v
+# Verify new remote URL
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)

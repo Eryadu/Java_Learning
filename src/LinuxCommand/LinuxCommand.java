@@ -44,7 +44,7 @@ rm -rf dir_name — to remove directory
 
 
 
-Permissions
+Permission
 
 r - read
 w - write
