@@ -16,5 +16,11 @@ public class MethodTestingWithArguments {
         int z = x+y;
         System.out.println("Sum of Numbers " + z);
     }
+    static void Sum(int x, int y, int z){// parameters
+
+        int z1 = x+y+z;
+        System.out.println("Sum of Numbers " + z1);
+    }
+
 
 }

@@ -1,0 +1,21 @@
+// MethodOverloading
+One method perform different function with different input but under same name.
+
+it just behave differently on different input but do not change behave that's
+why overloading is used.
+
+example:
+
+static void Sum(int x, int y){// parameters
+
+        int z = x+y;
+        System.out.println("Sum of Numbers " + z);
+    }
+
+    static void Sum(int x, int y, int z){// parameters
+
+            int z1 = x+y+z;
+            System.out.println("Sum of Numbers " + z);
+        }
+
+        its behaviour is same as addition but behave differently with different inputs.
