@@ -1,0 +1,46 @@
+// Constructor
+
+which initilizes the object.
+its same name as class name
+it does not have a return type, not even void
+look similar to method.
+
+Student st = nee Student();
+
+Two type of Const.
+1.default const - no parameter // it actually gives you default value i.e if you didn't declare any value,
+then default const automatically assign default value like for int 0;
+
+public Student(){
+}
+
+2.Parameterized - with parameters
+public student (String name, String email, String course){
+this.name = name;
+this.email = email;
+}
+
+//Rules
+1. default const is present for all the classes by default
+2. if there is a parameterized const, JVM will not create a default const
+3. if you need a default const, then you have to create in case of presence of parameterize const.
+
+Student.java -------> Student.class [Byte code] // behind the scene .java file converted to
+.class file which is machine dependent(byte code). It will be read by JVM(java virtual machine)
+
+
+// in case, if there is no constructor, then at compile time java automatically
+// create a default constructor
+
+//Compiler ----check for any syntax,error, not logical, parameters, each and everything
+before running and this code is machine independent.
+
+Step 1:
+Javac Student.java //java compiler  // It converted to .class
+
+Step2:run the code
+
+java student
+
+
+//
