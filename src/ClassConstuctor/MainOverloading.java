@@ -11,7 +11,7 @@ public class MainOverloading {
         System.out.println(name + email);
         return name + email;
     }
-    public String info (String name, String email, int phone){
+    public String info (String name, String email, long phone){
         System.out.println(name+email+phone);
         return name+email+phone;
     }

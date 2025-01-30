@@ -16,7 +16,7 @@ public class MethodOverloading {
         person.info(name, email);
 
         System.out.println("Enter the name and email and phone");
-        int phone = scanner.nextInt();
+        long phone = scanner.nextLong();
         person.info(name, email, phone);
 
     }
