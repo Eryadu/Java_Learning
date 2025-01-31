@@ -11,10 +11,9 @@ public class Book {
     // complete the methode displayDetails - add parameters
     // and with the help of object Book class, call all the method.
 
-   public void displayDetails( String title, String author, double price, String barcode){
-       System.out.println(title + " " + author + " " + price + " " + barcode);
-    }
+    public Book() {
 
+    }
 
     public Book(String title) {
         this.title = title;
@@ -38,7 +37,8 @@ public class Book {
         this.barcode = barcode;
     }
 
-    public Book() {
 
+    public void displayDetails( String title, String author, double price, String barcode){
+        System.out.println(title + " " + author + " " + price + " " + barcode);
     }
 }

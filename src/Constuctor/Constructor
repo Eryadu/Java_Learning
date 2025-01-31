@@ -5,7 +5,7 @@ its same name as class name
 it does not have a return type, not even void
 look similar to method.
 
-Student st = nee Student();
+Student st = new Student();
 
 Two type of Const.
 1.default const - no parameter // it actually gives you default value i.e if you didn't declare any value,
