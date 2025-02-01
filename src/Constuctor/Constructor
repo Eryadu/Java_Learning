@@ -20,7 +20,7 @@ this.name = name;
 this.email = email;
 }
 
-//Rules
+## Rules
 1. default const is present for all the classes by default
 2. if there is a parameterized const, JVM will not create a default const
 3. if you need a default const, then you have to create in case of presence of parameterize const.
@@ -43,4 +43,23 @@ Step2:run the code
 java student
 
 
-//
+## Keywords in Java?
+In the Java programming language, a keyword is any one of 68 reserved words that have a predefined meaning in the language.
+Because of this, programmers cannot use keywords in some contexts, such as names for variables,methods, classes, or as any
+ other identifier.
+
+## this // keyword
+1. refers to the current object
+--- > it refers to the current class instance variable
+
+2. this() -constructor chaining
+calling one constructor from another constructor
+
+##variables
+1. instance variable // belong to class, they have scope inside that class
+2. local variable // i.e  public Employee (String myVariable)
+ {
+ this.id = myVariable;
+ }
+ // local variable, has scope inside  method only, we can't access outside
+3. static variable
