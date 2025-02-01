@@ -63,3 +63,22 @@ calling one constructor from another constructor
  }
  // local variable, has scope inside  method only, we can't access outside
 3. static variable
+
+
+// Memories
+1. Stack  -------> work on based on LIFO(last in first out)
+all the refrences are stored in stack
+Employee(); // reference to object New Employee
+
+2. Heap -------> it store all the objects
+New Employee ("Name", "EmailID"); // object of Employee.
+
+
+
+// Garbage collection: part of Interview Question
+
+This is phenomina in Java that work automatically to delete all the objects gradualy , which have no reference in stack
+to clear the memory. In C/C++ there was destructor to delete garbage and clear memory.
+
+https://www.freecodecamp.org/news/garbage-collection-in-java-what-is-gc-and-how-it-works-in-the-jvm/
+
