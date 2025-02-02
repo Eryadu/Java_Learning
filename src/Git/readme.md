@@ -29,6 +29,7 @@ git commit -m "added 3 files" // -m is for message
 commit? // snapshot of your code at that specific moment and time.
 
 git log // to check the previous changes
+git log --oneline // to check commit id in single line
 
 downstream --- local laptop
 upstream ---- remote repository i.e github
@@ -54,3 +55,25 @@ $ git remote -v
 # Verify new remote URL
 > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 > origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+branch ??
+
+pointer to a commit
+
+
+main  ------------- commit 1, commit 2, commit 3 // master copy/ Production level code
+     \
+      \
+      mybranch ---- commit 1, commit 2, commit 3, commit 4, commit 5
+
+
+main  -- [Production]. - www.facebook.com
+    |
+    staging [pre production] -  exact replica of the main branch www.staging.facebook.com
+    |
+    feature branch [login page]
+
+
+-git branch branch_name // to create new branch
+-git checkout branch_name // to change to other branch
+
