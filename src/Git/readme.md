@@ -77,8 +77,8 @@ feature branch [login page]
 -git checkout branch_name // to change to other branch
 
 
-// merge into a branch
 
+// merge into a branch
 master/main.   commmit 1, commit2
  |
  | 
