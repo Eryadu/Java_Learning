@@ -77,4 +77,33 @@ main  -- [Production]. - www.facebook.com
 -git branch branch_name // to create new branch
 -git checkout branch_name // to change to other branch
 
-Hi i am merging to main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi I am merging in main
