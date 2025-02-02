@@ -75,3 +75,16 @@ feature branch [login page]
 
 -git branch branch_name // to create new branch
 -git checkout branch_name // to change to other branch
+
+
+// merge into a branch
+
+master/main.   commmit 1, commit2
+ |
+ | 
+
+staging.   commit0 commit1 commit2
+
+when merging to main
+1. switch to main branch
+2. git merge staging
