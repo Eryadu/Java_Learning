@@ -88,3 +88,16 @@ staging.   commit0 commit1 commit2
 when merging to main
 1. switch to main branch
 2. git merge staging
+
+
+// git branch 
+// git merge
+// merge conflict
+
+https://www.atlassian.com/git/tutorials/using-branches
+
+https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+
+//JVM architecture
+
+https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/
