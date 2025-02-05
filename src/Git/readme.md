@@ -29,6 +29,7 @@ git commit -m "added 3 files" // -m is for message
 commit? // snapshot of your code at that specific moment and time.
 
 git log // to check the previous changes
+git log --oneline // to check commit id in single line
 
 downstream --- local laptop
 upstream ---- remote repository i.e github
