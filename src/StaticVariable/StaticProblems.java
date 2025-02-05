@@ -19,6 +19,7 @@ class StaticProblems
     }
 }
 
+// output 212012
 
 
 /*public class Main {
@@ -29,5 +30,5 @@ class StaticProblems
         System.out.println(a);
     }
 }
-
+//output : compile time error
  */

@@ -68,18 +68,33 @@ mybranch ---- commit 1, commit 2, commit 3, commit 4, commit 5
 
 main  -- [Production]. - www.facebook.com
 |
-staging [pre production] -  exact replica of the main branch www.staging.facebook.com
+staging [pre_production] -  exact replica of the main branch www.staging.facebook.com
 |
 feature branch [login page]
 
 
 -git branch branch_name // to create new branch
+-git checkout -b branch_name // to create a new branch and change to it.
 -git checkout branch_name // to change to other branch
+-git branch -d branch_name // to delete a branch
+-git branch -m branch_name // to rename a branch
+-git branch -a // list all remote branches
+-git branch -D branch_name // forcefully deleted unmerged file/permanently deleted
+
+-git remote add new-remote-repo https://bitbucket.com/user/repo.git // to add remote repository
+# Add remote repo to local repo config
+-git push <new-remote-repo> branch_name 
+# pushes the crazy-experiment branch to new-remote-repo
+
+-git push origin --delete branch_name // delete remote repository
+or
+-git push origin :branch_name
+
 
 
 
 // merge into a branch
-master/main.   commmit 1, commit2
+master/main.   commit 1, commit2
  |
  | 
 
