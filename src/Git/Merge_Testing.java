@@ -1,8 +1,8 @@
 package Git;
 
 public class Merge_Testing {
-    static String name = "Yadav";
-    static int add_no = 1;
+    static String name = "Yadav"; // static variable
+    static int add_no = 1; // static variable
 
    // Merge_Testing mer = new Merge_Testing();
 
