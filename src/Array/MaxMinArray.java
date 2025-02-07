@@ -1,6 +1,6 @@
 package Array;
 
-public class ArrayMaxMethod {
+public class MaxMinArray {
 
     public int findMaxElement(int[] arr){
         System.out.println("max Element is below :");
