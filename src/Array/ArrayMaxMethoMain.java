@@ -17,8 +17,9 @@ public class ArrayMaxMethoMain {
         ArrayMaxMethod arrayMax = new ArrayMaxMethod(); // create instance of class ArrayMaxMethod
         int maxElement= arrayMax.findMaxElement(arr); // call method findMaxElement and pass max as array
                                                         // and store return value in maxElement
-
         System.out.println("Max is : " + maxElement);
+        int minElement= arrayMax.findMinElement(arr);
+        System.out.println("Min is : " + minElement);
     }
 
 }

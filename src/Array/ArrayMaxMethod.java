@@ -12,9 +12,19 @@ public class ArrayMaxMethod {
             if (arr[i] > max) {
                 max = arr[i];
             }
-
            // System.out.println("Max1 is : " + max); // if use void type ij method instead of int.
         }
         return max;
+    }
+
+    public int findMinElement(int[] arr) {
+        System.out.println("Min Element is below :");
+        int min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        return min;
     }
 }
