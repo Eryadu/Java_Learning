@@ -10,7 +10,7 @@ public class ReverseArray {
         for (int i=0;i< rev.length;i++) { // input the array
             rev[i] = scanner.nextInt();
         }
-        System.out.println("reverse array is . . " );
+        System.out.println("Reversed array is . . " );
         for (int i=4;i< rev.length;i--) { // reverse the input
             System.out.println(rev[i]);
         }
