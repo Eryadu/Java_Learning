@@ -13,7 +13,7 @@ public class LowestAgeMethodMain {
         {
             ages[i] = scanner.nextInt(); // enter the input
         }
-//        for ( int i :ages)
+//       for ( int i :ages)
 //        {
 //            ages[i]= scanner.nextInt();
 //        }
