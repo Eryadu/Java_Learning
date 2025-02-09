@@ -31,7 +31,7 @@ if we change s2 to "Microsoft", its just dis-referenced the first one "Pragra" a
 because it is "Immutable".
 
 s10= "Microsoft"
-it also reference to same "Microsoft" as refrence by s2 due to SCP.
+it also references to same "Microsoft" as reference by s2 due to SCP.
 
 // In case of new Keyword -----> it create new object outside SCP. ?? all new keyword strings also create same SCP or only literal?
 
