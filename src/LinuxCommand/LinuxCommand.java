@@ -6,7 +6,17 @@ ps - to check pc process
 df - to check disk space
 Touch  file name—— to create file
 ls —— list all the files
-ls-   long list of files (in more detail)
+ls -l   long list of files (in more detail)
+ls -lt ---- means based on time
+ls -lrt -- reverse order of time
+ls -r -- reverse sort order
+ls -t -- based on time
+
+
+Different types of editors
+- Vim editor
+- nano
+- emacs
 
 Vi  filename —— this will open the editor
 Press letter i——— to go to insert mode
@@ -14,24 +24,21 @@ Wrote something : hello I am a java
 
 Esc —— to come out of the insert mode
 
-:x — to save and exit
-
 :w —— to save the file
 :q —— exit and if there are unsaved changes, it would not let you exit
-:q! —— exit without save
+:q! —— exit without save // force quit
 :wq — save and exit
 :x — save and exit
 
-##Cat file name — to show the content of file without opening file.
+-Cat file name — to show the content of file without opening file.
 
 #￼Directories
 Root directory
 home directory
 
-
-Mkdir directiry_name — to create new directory
+Mkdir directory_name — to create new directory
 cd directory_name — to go inside the directory
-pwd —- present working directory
+pwd               - present working directory
 cd . . — to go back to previous directory
 
 Copy files
@@ -42,15 +49,25 @@ remove/delete file —- rm  filename
 
 rm -rf dir_name — to remove directory
 
-
-
 Permission
 
 r - read
 w - write
 x - execute
 
+Total 7 blocks
 
+-rw-r--r--. 1 ec2-user ec2-user 0 Feb 14 02:07 index.txt //long file name
+
+-rw-r--r--.  - Permissions and file type
+1            - Memory Block
+ec2-user     - Owner Name
+ec2-user     - Group name
+0            - size of file in bytes
+Feb 14 02:07 - date and time
+index.txt    - Name of the file
+
+d            - Directory
 
 -rw- ---> Owner permission
 r--  ---> Group permission
@@ -105,7 +122,3 @@ to arrange content accordinly
 4. +x ignores first x fields when sorting (Not working)
 5. -o new_file_name old_file_name (sort -o demo1 demo)
     use to save output after sorting
-
-
-
- */
