@@ -29,28 +29,24 @@ Esc —— to come out of the insert mode
 :q! —— exit without save // force quit
 :wq — save and exit
 :x — save and exit
-
 -Cat file name — to show the content of file without opening file.
+
+mkdir directory_name     — to create new directory
+cd directory_name        — to go inside the directory
+pwd                      - present working directory
+cd ..                    — to go back to previous directory
+rmdir dir_name           - to remove directory
+rm -rf dir_name          — to remove directory with files inside
+rm -r dir_name           — to remove directory with files, sub-directories inside // r means recursive
+cp exiting-name new-name - Copy files
+mv filename new name     - Rename files
+rm  filename             - Remove/delete file
 
 #￼Directories
 Root directory
 home directory
 
-Mkdir directory_name — to create new directory
-cd directory_name — to go inside the directory
-pwd               - present working directory
-cd . . — to go back to previous directory
-
-Copy files
-
-Copy files ———cp exiting-name new-name
-Rename files ——mv filename new name
-remove/delete file —- rm  filename
-
-rm -rf dir_name — to remove directory
-
-Permission
-
+//Permission
 r - read
 w - write
 x - execute
@@ -60,14 +56,14 @@ Total 7 blocks
 -rw-r--r--. 1 ec2-user ec2-user 0 Feb 14 02:07 index.txt //long file name
 
 -rw-r--r--.  - Permissions and file type
-1            - Memory Block
+1            - Memory Block // number of links
 ec2-user     - Owner Name
-ec2-user     - Group name
+ec2-user     - Owner Group
 0            - size of file in bytes
-Feb 14 02:07 - date and time
-index.txt    - Name of the file
+Feb 14 02:07 - date and time of last modification
+index.txt    - Name of the file/directory
 
-d            - Directory
+d            - Directory // if there is d means its in directory
 
 -rw- ---> Owner permission
 r--  ---> Group permission
@@ -95,7 +91,7 @@ codes to change permission
 if there is d in front of rwx means directory
 
 ## grep keyword (whatevertofind) file_name
-this command is use to search a regular expression / or pattern
+this command is used to search a regular expression / or pattern
 
 1. find the match
 grep Javascript(Example keyword) file_name
@@ -114,7 +110,7 @@ print the count of matching lines...
 
 
 ##Sort
-to arrange content accordinly
+to arrange content according
 
 1. -n  sort numerically, ignore blanks and tabs
 2. -r reverses the order of sort
