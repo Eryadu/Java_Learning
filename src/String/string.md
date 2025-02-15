@@ -38,3 +38,12 @@ it also references to same "Microsoft" as reference by s2 due to SCP.
 
 // == -------> check the reference
 // .equals() ------> check the content
+
+
+// Use equals() when comparing the contents of strings (as you would in your ticket price program).
+// Use == only to check if two string references point to the same object.
+// when input given to string by literal methode, then it create object in same content pool, at that time == use to compare
+// e.g String day1 = "Monday" -----literal methode
+//     String day2 = "Tuesday" ---- literal methode ---- objects create in same memory pool.
+// when input given to string using scanner or new keywords then objects create in different memory pool,
+// then we use equal() instead of == to compare contents of string.
