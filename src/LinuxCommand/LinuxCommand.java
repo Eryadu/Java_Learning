@@ -41,6 +41,9 @@ rm -r dir_name           — to remove directory with files, sub-directories ins
 cp exiting-name new-name - Copy files
 mv filename new name     - Rename files
 rm  filename             - Remove/delete file
+whatis filename          - to get the description of file
+alias anyname=command_for_which --- use to create alias for long command
+unalias anyname          - any name you gave to alias
 
 #￼Directories
 Root directory
