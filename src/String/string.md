@@ -1,3 +1,6 @@
+
+// java8 string documentation ---- to learn about string
+
 String ?   Sequence of characters
 its a non -primitive data type
 String is also a class
@@ -47,3 +50,4 @@ it also references to same "Microsoft" as reference by s2 due to SCP.
 //     String day2 = "Tuesday" ---- literal methode ---- objects create in same memory pool.
 // when input given to string using scanner or new keywords then objects create in different memory pool,
 // then we use equal() instead of == to compare contents of string.
+
