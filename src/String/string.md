@@ -51,3 +51,9 @@ it also references to same "Microsoft" as reference by s2 due to SCP.
 // when input given to string using scanner or new keywords then objects create in different memory pool,
 // then we use equal() instead of == to compare contents of string.
 
+//Mutable string
+
+1. StringBuffer -- it is thread safe. e.g if you are on driver seat only you can control car no one other. Sam in java
+---- no other process change the object at the same time. iT lit slow cause one thread at onetime.
+2. StringBuilder -- it is not thread safe. BUt its faster cause multiple thread work at same time. like on laptop multiple
+--- application run at same time.
