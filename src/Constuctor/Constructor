@@ -56,7 +56,7 @@ Because of this, programmers cannot use keywords in some contexts, such as names
 calling one constructor from another constructor
 
 ##variables
-1. instance variable // belong to class, they have scope inside that class
+1.  // belong to class, they have scope inside that class
 2. local variable // i.e  public Employee (String myVariable)
  {
  this.id = myVariable;

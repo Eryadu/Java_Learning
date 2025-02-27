@@ -29,7 +29,7 @@ public class StringDemo {
 //        // give true result for both
 
 
-        System.out.println(s1==s3); // it gives false as reference changed, literal create SCP and new keyword create new object outside.
+        System.out.println(s1==s3); // it gives false as reference changed, literal create SCP (String Constant Pool) and new keyword create new object outside.
         System.out.println(s1.equals(s3)); // it gives True, cause it check only content.
     }
 }
